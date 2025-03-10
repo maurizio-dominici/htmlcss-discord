@@ -39,6 +39,7 @@ button {
   background-color: white;
   color: black;
   border: none;
+  cursor: pointer;
 }
 
 .button-login {
@@ -178,24 +179,49 @@ button.black-big {
 }
 
 .page-content .col-40 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+
   /* debug */
-  min-height: 400px;
+
+  /* min-height: 400px;
   background-color: rgb(255 192 202);
-  border: 2px dashed black;
+  border: 2px dashed black; */
 }
 
 .page-content .col-60 {
+  min-height: 450px;
   /* debug */
-  min-height: 400px;
-  background-color: rgb(30 144 255);
-  border: 2px dashed black;
+
+  /* min-height: 400px;
+   background-color: rgb(30 144 255); 
+  border: 2px dashed black; */
+}
+
+.page-content .col-60.paragraph1 {
+  background-image: url(../img/paragrafo1.svg);
+}
+
+.page-content .col-60.paragraph2 {
+  background-image: url(../img/paragrafo2.svg);
+}
+
+.page-content .col-60.paragraph3 {
+  background-image: url(../img/paragrafo3.svg);
 }
 
 .page-content .large-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   /* debug */
-  background-color: green;
-  min-height: 600px;
-  border: 2px dashed black;
+
+  /* background-color: green; */
+  /* min-height: 600px; */
+  /* border: 2px dashed black; */
 }
 
 /* FOOTER */
