@@ -76,13 +76,16 @@ ul {
 }
 
 .top-header {
+  background-color: hsl(222.55deg 81.67% 52.94%);
   padding: 1rem 0;
 }
 .top-header .row {
-  background-color: rgb(218 165 30);
+  /* debug */
+  /* background-color: rgb(218 165 30); */
 }
 
 .top-header .row > * {
+  color: white;
   width: calc(100% / 3);
   padding: 0.5rem;
 
@@ -92,6 +95,7 @@ ul {
 
 .top-header .links-header {
   text-align: center;
+  display: inline-block;
 }
 
 .top-header .login-header {
