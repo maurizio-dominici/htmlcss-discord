@@ -16,19 +16,33 @@ img {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 ul {
   list-style-type: none;
 }
 
+li {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
 /* UTILS */
 
-.debug * {
-  min-height: 50px;
-  border: 2px dashed red;
-  padding: 5px;
-  background-color: #ff000022;
+button {
+  padding: 0.4rem;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.button-login {
+  font-size: 1.2rem;
 }
 
 .container {
@@ -90,29 +104,59 @@ ul {
   padding: 0.5rem;
 
   /* debug */
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
 }
 
 .top-header .links-header {
   text-align: center;
-  display: inline-block;
+  align-content: center;
+  width: 60%;
 }
 
 .top-header .login-header {
   text-align: right;
+  align-content: center;
+}
+
+button.button-login {
+  font-size: 0.8rem;
 }
 
 .bottom-header {
   padding: 75px 0;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+
   /* debug */
-  background-color: rgb(0 1 139);
+  /* background-color: rgb(0 1 139);*/
 }
 
 .bottom-header .hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   /* debug */
-  background-color: rgb(239 130 237);
+  /* background-color: rgb(239 130 237); */
   min-height: 350px;
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
+}
+
+button.white-big {
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+button.black-big {
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+}
+
+.button-header {
+  display: flex;
+  gap: 30px;
 }
 
 /* MAIN */
